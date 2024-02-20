@@ -1,0 +1,113 @@
+body {
+
+  background-color: lightblue;
+
+  text-align: left;
+
+  padding: 20px;
+
+}
+
+
+
+.contenedor {
+
+  overflow: hidden;
+
+}
+
+
+
+.bloque1 {
+
+  border: 2px solid black;
+
+  background-color: gold;
+
+  padding: 10px;
+
+  margin-top: 20px;
+
+  margin-right: 2%;
+
+  margin-bottom: 20px;
+
+}
+
+
+
+.bloque2 {
+
+  border: 2px solid black;
+
+  background-color: silver;
+
+  padding: 10px;
+
+  margin-bottom: 20px;
+
+  margin-top: 20px;
+
+}
+
+
+
+.clear {
+
+  clear: both;
+
+}
+
+
+
+img {
+
+  width: 400px;
+
+  display: block;
+
+  margin: 0 auto;
+
+}
+
+
+
+p {
+
+  font-size: smaller;
+
+}
+
+
+
+#btnCreditos,
+
+#btnOcultar,
+
+#btnMostrar,
+
+#btnCambiarColor,#btnObtenerUbicacion{
+
+  margin: 20px auto;
+
+  padding: 10px;
+
+  background-color: #4CAF50;
+
+  color: white;
+
+  border: none;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+}
+
+
+
+#btnCreditos:hover {
+
+  background-color: #45a049;
+
+}
