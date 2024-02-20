@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Mi Página</title>
+
+  <link rel="stylesheet" href="enlace-a-tu-archivo-css.css">
+
+  <script src="archivo-js.js" defer></script>
+
+  
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+</head>
+
+<body>
+
+  <img src="https://th.bing.com/th/id/OIP.xLLECaA5wgyYMzmFytgrbQHaE6?w=255&h=180&c=7&r=0&o=5&pid=1.7" alt="Imagen" />
+
+  <div class="contenedor">
+
+    <div class="bloque1" id="seccion1" onmouseover="mostrarFecha()"> 
+
+      <h1>Título de la Página</h1>
+
+      <section>
+
+        <h2>Sección 1</h2>
+
+        <p>Cuando aún está empezando el verano del 1604, Miguel de Cervantes presenta ante el Consejo de Castilla la petición de licencia y privilegio para imprimir la novela que ha bautizado como El ingenioso hidalgo de la Mancha...</p>
+
+      </section>
+
+    </div>
+
+    <div class="bloque2" id="seccion2" onmouseover="cambiarColorFondo()" onmouseout="restaurarColorFondo()"> 
+
+      <section>
+
+        <h2>Sección 2</h2>
+
+        <p>Pasados cuatro siglos, ahí están, tan frescas, tan vivas: es el único libro en la historia de las letras europeas que no ha conocido declives ni olvidos...</p>
+
+        <ol>
+
+          <li>Elemento 1</li>
+
+          <li>Elemento 2</li>
+
+          <li>Elemento 3</li>
+
+        </ol>
+
+      </section>
+
+      <section>
+
+        <h2>Sección 3</h2>
+
+        <p>Las dos entregas del Quijote (dos novelas que acabaron siendo una sola) aparecieron en 1605 y 1615...</p>
+
+        <ul>
+
+          <li><a href="https://www.youtube.com/watch?v=5UXL6oPP8sA">Enlace 1</a></li>
+
+          <li><a href="https://www.youtube.com/watch?v=QYmKDngX7rY">Enlace 2</a></li>
+
+          <li><a href="https://www.youtube.com/watch?v=JdFRjsEZrmU">Enlace 3</a></li>
+
+        </ul>
+
+      </section>
+
+    </div>
+
+  </div>
+
+   <div id="ubicacion"></div>
+
+  <botones>
+
+
+
+  <button id="btnCreditos">Créditos</button>
+
+
+
+  <button id="btnOcultar">Ocultar Sección 1</button>
+
+
+
+  <button id="btnMostrar">Mostrar Sección 1</button>
+
+
+
+  <button id="btnCambiarColor">Cambiar Color Sección 1</button>
+
+
+
+  
+
+  <button id="btnObtenerUbicacion">Obtener Ubicación</button>
+
+    </botones>
+
+
+
+  <div id="mapa" style="height: 400px;"></div>
+
+  <div class="clear"></div>
+
+  <center>
+
+    <strong>
+
+      <p>Copyright 2023</p>
+
+    </strong>
+
+  </center>
+
+</body>
+
+</html>
